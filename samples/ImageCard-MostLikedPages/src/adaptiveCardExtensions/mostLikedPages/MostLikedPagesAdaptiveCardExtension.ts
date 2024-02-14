@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { BaseAdaptiveCardExtension } from '@microsoft/sp-adaptive-card-extension-base';
 import { BaseComponentContext } from "@microsoft/sp-component-base";
 import { CardView } from './cardView/CardView';

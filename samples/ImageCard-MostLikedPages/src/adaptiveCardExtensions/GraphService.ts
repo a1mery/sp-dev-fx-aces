@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { MSGraphClientV3 } from "@microsoft/sp-http";
 import { AdaptiveCardExtensionContext } from '@microsoft/sp-adaptive-card-extension-base';
 import { IPropertyFieldSite } from "@pnp/spfx-property-controls/lib/PropertyFieldSitePicker";
@@ -13,9 +14,9 @@ class GraphService implements IGraphService {
 
   public async GetPages(site: IPropertyFieldSite): Promise<GraphPages> {
     const pages: GraphPages = await this.GET("sites/" + site.id + "/pages/microsoft.graph.sitePage", "", "reactions,title,webUrl,thumbnailWebUrl", 50);
-    pages.value = pages.value.filter(p => p.reactions.likeCount > 0)
-    pages.value.map(p => p.webTitle = site.title)
-    pages.value.map(p => p.webUrl = site.url + "/" + p.webUrl)
+    pages.value = pages.value.filter(p => p.reactions.likeCount > 0);
+    pages.value.map(p => p.webTitle = site.title);
+    pages.value.map(p => p.webUrl = site.url + "/" + p.webUrl);
     return pages;
   }
 

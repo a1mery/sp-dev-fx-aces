@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { IPropertyPaneConfiguration, IPropertyPaneField, IPropertyPaneGroup, PropertyPaneChoiceGroup, PropertyPaneTextField } from '@microsoft/sp-property-pane';
 import * as strings from 'MostLikedPagesAdaptiveCardExtensionStrings';
 import { PropertyFieldSitePicker } from '@pnp/spfx-property-controls/lib/PropertyFieldSitePicker';

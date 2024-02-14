@@ -12,8 +12,8 @@ This Adaptive Card Extension shows the most liked pages of selected SharePoint s
 
 ## Compatibility
 
-![SPFx](https://img.shields.io/badge/SPFx-1.16.1-green.svg)
-![Node.js](https://img.shields.io/badge/Node.js-LTS%2016.x-green.svg)
+![SPFx](https://img.shields.io/badge/SPFx-1.18.2-green.svg)
+![Node.js](https://img.shields.io/badge/Node.js-v18%20%7C%20v16-green.svg)
 ![SharePoint Online](https://img.shields.io/badge/SharePoint-Online-yellow.svg)
 
 ## Permissions
@@ -45,6 +45,7 @@ Microsoft Graph
 | ------- | ---------------- | --------------- |
 | 1.0     | March 15, 2023 | Initial release |
 | 1.1     | July 21, 2023 | SharePoint Pages API update |
+|1.2      | February 14, 2024 | Upgrade to SPFx 1.18.2 |
 
 ## Disclaimer
 
