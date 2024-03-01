@@ -8,7 +8,7 @@ import { Page } from '../types';
 import { GraphServiceInstance } from '../GraphService';
 import { getAllPages } from '../PagesData';
 import { IPropertyFieldSite } from "@pnp/spfx-property-controls/lib/PropertyFieldSitePicker";
-import { IPropertyPaneConfiguration } from '@microsoft/sp-property-pane';
+import type { IPropertyPaneConfiguration } from '@microsoft/sp-property-pane';
 
 export interface IMostLikedPagesAdaptiveCardExtensionProps {
   title: string;
@@ -28,7 +28,7 @@ export default class MostLikedPagesAdaptiveCardExtension extends BaseAdaptiveCar
   IMostLikedPagesAdaptiveCardExtensionProps,
   IMostLikedPagesAdaptiveCardExtensionState
 > {
-  private _deferredPropertyPane: MostLikedPagesPropertyPane | undefined;
+  private _deferredPropertyPane: MostLikedPagesPropertyPane;
 
   public async onInit(): Promise<void> {
     this.state = {
