@@ -12,7 +12,7 @@ Event Page that loads in Outlook online
 
 ## Used SharePoint Framework Version
 
-![version](https://img.shields.io/badge/version-1.13-green.svg)
+![version](https://img.shields.io/badge/version-1.23-green.svg)
 
 ## Permissions
 
