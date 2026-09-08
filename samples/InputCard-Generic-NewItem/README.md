@@ -47,7 +47,7 @@ Demo:
 | Version | Date             | Comments        |
 | ------- | ---------------- | --------------- |
 | 1.0     | October 15, 2023 | Initial release |
-| 1.2     | September 08, 2026 | Upgrade to SPFx 1.23 |
+| 1.1     | September 08, 2026 | Upgrade to SPFx 1.23 |
 
 ## Disclaimer
 
